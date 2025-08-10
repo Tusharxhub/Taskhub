@@ -180,7 +180,7 @@ export default function LandingPage() {
             >
               <div className="relative z-10">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="https://thumbs.dreamstime.com/b/concept-blogging-freelancing-few-blog-words-pad-paper-office-desk-137051608.jpg"
                   alt="Freelance Platform"
                   width={600}
                   height={600}
