@@ -1,3 +1,6 @@
+-- Ensure required extensions are available
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+
 -- First, let's create the tasks table with proper structure
 CREATE TABLE IF NOT EXISTS public.tasks (
     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
